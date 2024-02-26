@@ -34,3 +34,4 @@ zipp==0.6.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools==42.0.2        # via google-auth, kubernetes
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
